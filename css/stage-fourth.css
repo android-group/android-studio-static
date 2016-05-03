@@ -1,0 +1,50 @@
+#stage-4 > div{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#stage-4 div > h2 {
+    text-align: left;
+    color: #049cdb;
+    margin-bottom: 30px;
+}
+
+#stage-4 #history-story {
+    width: 60%;
+}
+
+#connections {
+    margin-top: 10%;
+    width: 100%;
+}
+#connections div{
+    float: left;
+}
+
+#connections div:last-of-type{
+    width: 25%;
+    margin-left: 5%;
+}
+#connections div:last-of-type em{
+    font-size: 1.2em;
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+#connections div:nth-of-type(2){
+    min-height: 220px;
+    vertical-align: middle;
+    line-height: 220px;
+    margin: 0 25px;
+    color: #049cdb;
+}
+
+#connections div > p, #history-story em{
+    width: 100%;
+    padding: 5px 20px;
+    display: block;
+}
+
+
+

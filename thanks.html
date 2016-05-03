@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru-RU">
+    <meta charset="UTF-8">
+    <title>отзыв принят</title>
+
+
+    <link href="/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="/css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/thanks-page.css" rel="stylesheet" type="text/css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div id="thanks">
+    <h2 class="stage-title">В ближайшее время с вами свяжется наш специалист</h2>
+</div>
+
+
+<div id="android-man-picture">
+    <div id="particle-target">
+        <img alt="background" src="/images/thanks-page/android-man.png"/>
+    </div>
+</div>
+
+
+<div id="footer">
+    <h4>2016.<a href="/">Android studio</a> - Reg Frogs</h4>
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.logosDistort.js"></script>
+<script>
+    var particles = true,
+            particleDensity,
+            options = {
+                effectWeight: 10,
+                outerBuffer: 1.08,
+                elementDepth: 50
+            };
+
+    $(document).ready(function () {
+
+        $("#android-man-picture").logosDistort(options);
+
+        if (particles) {
+            particleDensity = window.outerWidth * 10;
+            if (particleDensity < 13000) {
+                particleDensity = 13000;
+            } else if (particleDensity > 20000) {
+                particleDensity = 20000;
+            }
+            return $('#particle-target').particleground({
+                dotColor: '#1ec5ee',
+                lineColor: '#0a4e90',
+                density: particleDensity.toFixed(0),
+                parallax: false
+            });
+        }
+    });
+</script>
+
+</body>
+</html>

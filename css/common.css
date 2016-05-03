@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css?family=Tenor+Sans&subset=latin,cyrillic";
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+* html .container {
+    height: 100%;
+}
+
+h2 h1 {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+em {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.stage-title {
+    font-size: 2.5em;
+}
+
+.stage-subtitle {
+    font-size: 1.5em;
+}
+
+.area-title {
+    font-size: 2em;
+}
+
+#footer a{
+    color: blue;
+}
+

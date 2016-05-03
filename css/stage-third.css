@@ -1,0 +1,50 @@
+#stage-3 {
+    background-color: #d9edf7;
+    padding-top: 80px;
+    /*padding-left: 50px;*/
+}
+
+#stage-3 div > h2, h3 {
+    text-align: center;
+}
+
+#stage-3 div > em {
+    padding-top: 30px;
+    font-size: 1.5em;
+    display: block;
+    color: #555555;
+}
+
+#advantages {
+    margin-top: 5%;
+    min-height: 500px;
+    width: 100%;
+    display: block;
+}
+
+#advantages div {
+    width: 20%;
+    margin: auto;
+    float: left;
+    padding: 15px;
+}
+
+#advantages div img {
+    width: 80%;
+    height: 80%;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+#footer {
+    float: none !important;
+    display: block !important;
+    width: 300px;
+    margin-top: 31% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+#footer a{
+    color: blue;
+}

@@ -1,0 +1,117 @@
+
+#stage-2 {
+    background: #eeeeee;
+    display: block;
+}
+#stage-2 > div{
+    margin-left: 10%;
+}
+
+#page-title {
+    margin-top: 7%;
+    width: 100%;
+    height: 80px;
+}
+#sliders{
+    height: 600px;
+}
+
+/*кругляши с названиями шагов*/
+#path-steps {
+    margin-top: 7%;
+    display: block;
+    float: left;
+    font-size: 1.2em;
+}
+
+#path-steps div:not(.vertical_line) {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: block;
+
+    text-align: center;
+    color: #049cdb;
+    vertical-align: middle;
+    line-height: 100px;
+
+    border-radius: 50%;
+    border: 3px solid #049cdb;
+}
+
+.selected-step {
+    background: #049cdb !important;
+    color: white !important;
+}
+
+#path-steps .vertical_line {
+    height: 30px;
+    width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #049cdb;
+}
+
+/*картинки в телефоне*/
+#phone {
+    background: url("../images/stage-second/phone_background.png") no-repeat center center;
+    background-size: cover;
+    width: 270px;
+    height: 500px;
+    float: left;
+    display: block;
+    margin-left: 60px;
+    margin-top: 55px;
+}
+
+#phone-sliders {
+    margin-left: 9px;
+    margin-top: 40px;
+    width: 252px;
+    height: 410px;
+    overflow: hidden;
+}
+
+#phone-slider {
+    width: 1800px;
+    transition: all 1.0s ease-in-out;
+}
+
+#phone-slider img {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 410px;
+    width: 252px;
+}
+
+/*описание шагов*/
+#path-descriptions {
+    margin-left: 50px;
+    float: left;
+    margin-top: 10%;
+    width: 20%;
+}
+
+#path-descriptions div {
+    color: #555555;
+    display: none;
+    width: 500px;
+}
+
+.selected-description {
+    animation-name: move-text;
+    animation-duration: 2s;
+    display: block !important;
+}
+
+@keyframes move-text {
+    from {
+        padding-left: 100px;
+        color: #eeeeee;
+    }
+    to {
+        padding-left: 0;
+        color: #555555;
+    }
+}

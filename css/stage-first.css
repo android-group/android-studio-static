@@ -1,0 +1,120 @@
+#stage-1 {
+    background: url("../images/stage-first/main_background.jpg") no-repeat center center;
+    background-size: cover;
+
+    color: white;
+}
+
+#stage-1 div {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#head-panel {
+    margin-top: 1%;
+    display: block;
+    float: right;
+    font-size: 1.5em;
+}
+
+#head-panel ul ol {
+    float: left;
+    margin: 0 5px;
+    vertical-align: middle;
+    padding: 7px 15px;
+}
+
+ol:last-child {
+    float: none;
+    background: #46a546;
+}
+
+#site-container {
+    float: left;
+    width: 40% !important;
+}
+
+#site-container div{
+    display: block;
+    float: none;
+    width: 100%;;
+    margin-top: 30%;
+}
+/*формочка*/
+#site-container div:nth-of-type(2) {
+    margin-top: 15%;
+    width: 50%;
+}
+/*иконки*/
+#site-container div:last-of-type {
+    /*margin-top: 30%;*/
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #555555;
+}
+
+input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 1em;
+    color: white;
+    background-color: #46a546;
+    border: none;
+}
+
+input:focus {
+    border: 3px solid #049cdb;
+}
+
+
+a img {
+    /*margin: 2px;*/
+    width: 50px;
+    height: 50px;
+}
+
+#down-icon {
+    margin-top: 51%;
+    display: block;
+    float: left;
+    height: 70px;
+    width: 70px;
+}
+
+#down-icon a img {
+    width: 100px;
+    height: 100px;
+
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    from {
+        opacity: 0.0;
+    }
+}
+
+
